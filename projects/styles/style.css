@@ -1,0 +1,31 @@
+/* div {
+    display: flex;
+} */
+
+*{
+    margin:0%;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+}
+.firstDiv{
+    background-color: gray;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    
+}
+.lastdiv{
+    background-color: gray;
+    color: white;
+    font-size: 10px;
+    text-align: center;
+    padding: 10px;
+}
+.cities{
+    padding-right: 30px;
+    padding-top: 30px;
+    background-color: thistle;
+}

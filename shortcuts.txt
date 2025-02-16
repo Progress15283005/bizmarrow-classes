@@ -1,0 +1,5 @@
+ctl+shift+i = developer screen chrome
+
+Alt+shift+f = auto format
+
+shift + 1 = auto html fill out
