@@ -1,0 +1,139 @@
+<style media="screen">
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+list-style: none;
+font-family: 'Montserrat', sans-serif;
+}
+
+/*Styling the nysc logo div and parent div containing the navigation links */
+header {
+    display: flex;
+    border-bottom: solid darkred;
+
+    /*nysc logo */
+   div {
+       /*border: solid black;*/
+        margin-left: 50px;
+        padding-top: 10px;
+    }
+}
+
+/*Styling the navigation links */
+ul {
+    border-left: .2px solid; /* Set the border width */
+    border-image: linear-gradient(to bottom, transparent, gray) 1;
+    display: flex;
+    list-style: none;
+    /*border: solid black;*/
+    margin: 0;
+    padding-left: 0;
+    
+    li {
+        padding-right: 20px;
+        padding-top: 30px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+        font-size: 20px;
+        color: gray;
+       
+        }
+    li:hover {
+        cursor: pointer;
+        background-color: darkred;
+        color: white;
+    }
+}
+/*The green horizontal bar containing the heading: Welcome to NYSC Portal*/
+section {
+    background-color: green;
+    color: white;
+    padding-top: .1px;
+    padding-left: 10vw;
+    padding-bottom: .1px;
+    
+}
+/*The horizontal gray strip on the bottom border of the above green section*/
+.line {
+    margin-top: -1px; /* Adjust value to control overlap */
+    border: none;
+    border-top: 10px solid lightgray; /* Style of the overlapping line */
+
+}
+
+/*The invisible div containing both the remobilization 2024 C caption and the login here icon*/
+.parent {
+
+    display: flex;
+    margin-left: 30vw;
+}
+/*The one containing all of remobilization 2024 C contents*/
+.container {
+/*border: solid black;*/
+width: 20vw;
+justify-items: center;
+display: flex;
+flex-direction: column;
+align-items: center;
+background-color: orangered;
+
+/* The one containing just remobilization 2024 C contents*/ 
+div {
+   /* border: solid red;*/
+    width: 95%;
+    justify-items: center;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    height: 85%;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+div:hover {
+    background-color: #222222;
+   }
+.content1 {
+    margin: 0;
+    padding: 0;
+    margin-top: 10px;
+    font-size: 18px;
+}
+.content2 {
+    margin: 0;
+    padding: 0;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 15px;
+}
+}
+
+   
+    .login {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        font-weight: bold;
+        font-size: 20px;
+        color: gray;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-left: 150px;
+        text-decoration: none;
+    img {
+        width: 80px;
+        height: 80px;
+        }
+    }
+.login:hover {
+    text-decoration: underline;
+}
+.youthplus {
+    margin-top: 30px;
+    margin-left: 50px;
+    width: 85vw;
+    height: 50vh;
+}
